@@ -311,7 +311,7 @@ typedef int64_t JsSysTime;
 #endif
 
 /// Maximum amount of locks we ever expect to have on a variable (this could limit recursion) must be 2^n-1
-#define JSV_LOCK_MAX  15
+#define JSV_LOCK_MAX  31
 
 /// preprocessor power of 2 - suitable up to 16 bits
 #define NEXT_POWER_2(X) \

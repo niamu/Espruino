@@ -58,10 +58,10 @@ chip = {
   'adc'     : 2,
   'dac'     : 0,
   'saved_code' : {
-    'address' : 0x320000,
+    'address' : 0x1A3000,
     'page_size' : 4096,
-    'pages' : 64,
-    'flash_available' : 1344, # firmware can be up to this size - see partitions_espruino.csv
+    'pages' : 512,
+    'flash_available' : 2048, # firmware can be up to this size - see partitions_espruino.csv
   },
 };
 devices = {
